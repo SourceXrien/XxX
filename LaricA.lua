@@ -6983,27 +6983,20 @@ https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. 
 return false
 end
 Text = [[
-⚜️ • Welcome *to* Source
-🔰 • *TeAm* - [”LaricA”](t.me/LaRiCaTeam) 🦁 .
- ••••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉••••
+*𝗝ْ𝗨ِst #َ𝗚𝗿ِ𝗼𝘂ِ𝗽َُ!ْ𝗦 𝗧ِ𝘂ِ𝗺ّ𝗯َ𝗹َُ!r⤹* [◜𝗟𝗮ََِ𝗥ِ!َْ𝗖𝗮 ُ𝗧َ𝗘ِ𝗮َِ𝗺 🦂](t.me/LaRiCaTeam)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '📑 • TeAM LaricA .',url="https://t.me/LaRiCaTeam/16"},
+{text = '𝙎𝒐𝙐𝒓𝘾𝒆 𝙇𝒂𝙍𝒊𝘾𝒂',url="https://t.me/LaRiCaTeam"},
 },
 {
-{text = '🗂️ • Source Files', url="https://t.me/FileLaricA"},
+{text = '𝘿𝒆𝙑𝒆𝙡𝒐𝙋𝒆𝙍',url="https://t.me/BBBBRR"},
 },
-{
-{text = '📥 • Ch app iD ',url="https://t.me/Gverr"},
-},
-{
-{text = '📮 • Bot TwisL', url="t.me/Y_8ibot"},
-},
-}
+} 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/LaRiCaTeam&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+return false
 end
 if text == 'حذف' or text == 'رابط حذف' or text == 'رابط الحذف' or text == 'بوت الحذف' then
 local url,res = https.request('https://black-source.tk/BlackTeAM/ChatMember.php?La='..msg.sender_user_id_)
@@ -7868,7 +7861,7 @@ Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '📑 • TeAM LaricA .',url="https://t.me/LaRiCaTeam/16"},
+{text = '📑 • TeAM LaricA .',url="https://t.me/LaRiCaTeam/95"},
 },
 {
 {text = '🗂️ • Source Files', url="https://t.me/FileLaricA"},
